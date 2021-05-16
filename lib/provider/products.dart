@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:crud_challenge/data/mock_product.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:crud_challenge/models/product_model.dart';

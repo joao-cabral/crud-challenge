@@ -1,16 +1,17 @@
 # crud_challenge
 
-A new Flutter project.
+Novo projeto em Flutter.
+Um CRUD que tem funções para manipular produtos, o projeto tem funções como: 
+- Criação
+- Listagem
+- Atualização 
+- Exclusão
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Para começar a testar o projeto pode ser feito um clone ou download dos arquivos, depois é só iniciar o projeto em seu editor de preferência.
+O projeto pode ser testado em Android com versão a partir do SDK 28 (Android 9).
 
-A few resources to get you started if this is your first Flutter project:
+Também pode ser feito o download do APK por aqui [Download]()
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

@@ -12,21 +12,16 @@ class ProductsList extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: Text("Lista de produtos"),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.add),
-            onPressed: () => {
-              Navigator.of(context).pushNamed(
-                Routes.ADD_PRODUCT
-              )
-            },
-          )
-        ],
       ),
       body: ListView.builder(
         itemCount: products.count,
-        itemBuilder: (context, index) => ProductTile(products.all.elementAt(index))
-      )
+        itemBuilder: (context, index) => ProductTile(products.byIndex(index)),
+      ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blueAccent,
+        child: Icon(Icons.add),
+        onPressed: () => Navigator.of(context).pushNamed(Routes.ADD_PRODUCT)
+      ),
     );
   }
 }

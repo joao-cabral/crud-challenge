@@ -13,13 +13,14 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => Products(),
       child: MaterialApp(
-        title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
+        title: 'CRUD Challenge',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
         routes: {
           Routes.HOME: (_) => ProductsList(),
-          Routes.ADD_PRODUCT: (_) => AddProduct()
+          Routes.ADD_PRODUCT: (_) => AddProduct(),
         },
       ),
     );
